@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+}
+#headline a{
+    text-decoration: none;
+    color: white;
+}
+#banner .name{
+    /* white-space: nowrap; */
+    font-size: 25px;
+    font-weight: 800;
+    color: #29abe2;
+}
+#my-nav .mybg{
+    background-color: #29abe2;
+}
+#my-nav .affilate{
+    font-size: 15px;
+    color: #198754;
+    font-weight: 600;
+}
+#my-nav .nav-link{
+    color: white !important;
+}
+#my-nav .nav-link:hover{
+    color: white !important;
+    background-color: #198754 !important;
+}
+#my-nav .dropdown-menu{
+    border-radius: 5px;
+    background-color: #29abe2;
+}
+#my-nav .dropdown-item{
+    color: white;
+}
+#my-nav .dropdown-item:hover{
+    color: white;
+    background-color: #198754;
+}
+.toggle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: end !important;
+}
+#slider .crow-btn{
+    background-color: #29abe2;
+    border-radius: 50%;
+    z-index: 3 !important;
+}
+.slides img{
+    position: relative;
+    z-index: -1;
+}
+.slides .polygon{
+    position: absolute;
+    clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+    z-index: 1;
+    background-color: #198754;
+    opacity: 0.8;
+    width: 40%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.slides .my-h2{
+    font-size: 25px;
+}
+#department .category .cat-head{
+    background-color: #29abe2 !important;
+}
+#department .category .cat-body{
+    height: 250px !important;
+}
+#department .category .cat-body a{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    font-size: 28px;
+}
+.heading span{
+    font-weight: bolder;
+}
+.heading{
+    font-size: 28px;
+}
+.heading span{
+    font-weight: bolder;
+}
+#college-content .text{
+    font-size: 18px;
+    text-align: justify !important;
+}
+#facilities p{
+    text-align: justify;
+}
+
+.footer-outer{
+    background: linear-gradient(to right, #19875477,#37c3827a), url(../images/sectionbg.jpg) !important;
+    background-size: cover;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer ul li,#footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+/* Body scrollbar Opens here */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    height: 5px;
+    background-color: lightgrey;
+}
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    width: 1px;
+    background-color: #198754;
+}
+/* Body scrollbar closes here*/
+
+.breadcrump{
+    min-height: 25vh;
+    background-image: linear-gradient(to right, #1571466f,#45cc8d6f), url(../images/sectionbg.jpg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.contact-form a{
+    text-decoration: none;
+}
+
+.text-justify{
+    text-align: justify;
+}
